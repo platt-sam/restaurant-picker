@@ -2,11 +2,10 @@ const axios = require("axios");
 
 const options = {
   method: 'GET',
-  url: 'https://documenu.p.rapidapi.com/restaurant/4072702673999819',
+  url: 'https://restaurants-near-me-usa.p.rapidapi.com/restaurants/location/state/HI/0',
   headers: {
-    'x-api-key': '<REQUIRED>',
-    'X-RapidAPI-Key': 'fb17dadf3fmsh82e78ba3026de4cp1cddc2jsn6ff7db847e62',
-    'X-RapidAPI-Host': 'documenu.p.rapidapi.com'
+    'X-RapidAPI-Key': 'GENERATE-KEY-HERE',
+    'X-RapidAPI-Host': 'restaurants-near-me-usa.p.rapidapi.com'
   }
 };
 
