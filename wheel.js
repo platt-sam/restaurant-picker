@@ -7,6 +7,8 @@ function spinAnimation() {
     
     wheel.style.transform = "rotate(" + rotate_by_deg + "deg)";
     wheel.style.transitionDuration = duration + "s";
+
+    document.getElementById("spin").disabled = true;
 }
 
 function resetWheel() {
