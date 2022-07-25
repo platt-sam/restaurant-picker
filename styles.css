@@ -1,0 +1,10 @@
+.center {
+    margin: auto;
+    width: 75%;
+    align-items: center;
+    border: solid 1px green;
+    text-align: center;
+}
+h5 {
+    font-style: italic;
+}
